@@ -1,0 +1,23 @@
+{
+  "name": "comercial-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Girma Gebre",
+  "license": "ISC",
+  "description": "Making coder registration fullstack web using mongoDB as DBMS",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.20.1",
+    "mongoose-sequence": "^6.0.1"
+  }
+}
