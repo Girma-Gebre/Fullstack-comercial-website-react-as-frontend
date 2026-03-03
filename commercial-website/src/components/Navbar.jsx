@@ -12,7 +12,7 @@ const [open, setOpen] = useState(false);
 
 return (
 <nav className="navbar">
-<h1 className="logo"><a style={{textDecoration:"none", color: 'white', width: "100%", height:"100%", display: "block"}} href="https://fullstack-comercial-website-react-as-rn4s.onrender.com">💼<br/>CodingService</a></h1> {/*backend home page*/}
+<h1 className="logo"><Link to="/" style={{textDecoration:"none", color: 'white', width: "100%", height:"100%", display: "block"}}>💼<br/>CodingService</Link></h1>
 <button className="menu-btn" onClick={() => setOpen(!open)}>☰</button>
 <ul className={open ? "nav-links open" : "nav-links"}>
 <li><Link to="/">Home</Link></li>
