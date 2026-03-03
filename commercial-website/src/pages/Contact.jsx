@@ -27,7 +27,7 @@ const [contactData, setContactData] = useState({
    
        try {
      // use post method to link with the backend
-      const URL = "https://comercial-webaite-fullstack-latest.onrender.com/submit"; // ------For local server-----
+      const URL = "https://fullstack-comercial-website-react-as.onrender.com/submit"; // ------For local server-----
       const postMethodObject = {
         method: "POST",
         headers: {"Content-Type": "application/json"},

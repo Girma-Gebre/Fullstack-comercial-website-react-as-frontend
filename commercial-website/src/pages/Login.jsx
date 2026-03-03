@@ -36,7 +36,7 @@ navigate('/');
    
        try {
      // use post method to link with the backend for local host
-      const URL = "https://comercial-webaite-fullstack-latest.onrender.com/login";
+      const URL = "https://fullstack-comercial-website-react-as.onrender.com/login";
       const postMethodObject =  {
         method: "POST",
         headers: {"Content-Type": "application/json"},

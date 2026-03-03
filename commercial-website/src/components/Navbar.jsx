@@ -12,7 +12,7 @@ const [open, setOpen] = useState(false);
 
 return (
 <nav className="navbar">
-<h1 className="logo"><a style={{textDecoration:"none", color: 'white', width: "100%", height:"100%", display: "block"}} href="https://comercial-webaite-fullstack-latest.onrender.com/">💼<br/>CodingService</a></h1> {/*backend home page*/}
+<h1 className="logo"><a style={{textDecoration:"none", color: 'white', width: "100%", height:"100%", display: "block"}} href="">💼<br/>CodingService</a></h1> {/*backend home page*/}
 <button className="menu-btn" onClick={() => setOpen(!open)}>☰</button>
 <ul className={open ? "nav-links open" : "nav-links"}>
 <li><Link to="/">Home</Link></li>
